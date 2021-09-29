@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'search/search'
   #adminのルート
   devise_for :admin
   namespace :admin do
